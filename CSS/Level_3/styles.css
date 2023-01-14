@@ -1,0 +1,15 @@
+.container{
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box{
+    border: 1px solid blue;
+    background-image: linear-gradient(red,white);
+    width:50px;
+}

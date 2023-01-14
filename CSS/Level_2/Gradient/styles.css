@@ -1,0 +1,27 @@
+h1 {
+  text-shadow: 3px 3px 3px red;
+}
+.box {
+  text-align: center;
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  box-shadow: -10px -10px 50px green, 20px 20px 50px blue;
+  color: rebeccapurple;
+}
+
+.mydiv {
+  border: 1px solid black;
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+  /* background-image:  radial-gradient(circle,red,blue,orange); */
+  background-image: conic-gradient(red 40grad, 80grad, blue 360grad);
+}
+
+.india {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  background-image: linear-gradient(orange, white, green);
+}
