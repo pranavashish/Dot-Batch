@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -58,7 +58,7 @@ section {
   padding: 5rem 0;
 }
 .secHeading {
-  font-size: rem;
+  font-size: 5rem;
   padding: 0 10rem;
 }
 
