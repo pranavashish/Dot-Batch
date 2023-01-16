@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
+
+#wrapper {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2ebe3;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 250px;
+  scale: 0.7;
+  background-color: red;
+  width: 65%;
+}
+.card-image {
+  WS
+}
+
+.card {
+  text-align: left;
+  background-color: white;
+  height: 690px;
+}
