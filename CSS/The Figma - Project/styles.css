@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.header {
+}
+.container {
+  position: absolute;
+  width: 1440px;
+  height: 1461px;
+  left: 4px;
+  top: 5px;
+
+  background: #ffffff;
+  border-radius: 0px;
+}
+.header {
+  height: 20%;
+  max-width: 1440px;
+}
+
+.logo {
+  position: absolute;
+  width: 98px;
+  height: 82px;
+  left: 117px;
+  top: 53px;
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+.nav {
+  position: absolute;
+  width: 500px;
+  height: 20px;
+  left: 485px;
+  top: 74px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #777c85;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.btn {
+  position: absolute;
+  width: 109px;
+  height: 24px;
+  left: 1233px;
+  top: 68px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+  position: absolute;
+  width: 165px;
+  height: 54px;
+  left: 1205px;
+  top: 54px;
+
+  background: #4e5dc0;
+  border-radius: 5px;
+}
+
+.head1 {
+  position: absolute;
+  width: 312px;
+  height: 45px;
+  left: 117px;
+  top: 266px;
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  color: #16171c;
+  font-stretch: 100;
+  font-variation-settings: "GRAD" 122, "slnt" 0, "XTRA" 603, "XOPQ" 96,
+    "YOPQ" 100, "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.para1 {
+  position: absolute;
+  width: 573px;
+  height: 272px;
+  left: 117px;
+  top: 373px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+
+  /* or 170% */
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.img1 {
+  position: absolute;
+  width: 570px;
+  height: 427px;
+  left: 800px;
+  top: 266px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.img2 {
+  position: absolute;
+  width: 500px;
+  height: 480px;
+  left: 117px;
+  top: 860px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.head2 {
+  position: absolute;
+  width: 260px;
+  height: 45px;
+  left: 791px;
+  top: 872px;
+
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+
+  color: #16171c;
+  font-stretch: 100;
+  font-variation-settings: "GRAD" 122, "slnt" 0, "XTRA" 603, "XOPQ" 96,
+    "YOPQ" 100, "YTLC" 514, "YTUC" 712, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.para2 {
+  position: absolute;
+  width: 462px;
+  height: 306px;
+  left: 791px;
+  top: 979px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+
+  /* or 170% */
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+footer .logo {
+  position: absolute;
+  width: 98px;
+  height: 82px;
+  left: 80px;
+  top: 1553px;
+}
+
+.priv {
+  position: absolute;
+  width: 200x;
+  height: 52px;
+  left: 70px;
+  top: 1681px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #4e5dc0;
+}
+
+.resv {
+  position: absolute;
+  width: 157px;
+  height: 64px;
+  left: 70px;
+  top: 1727px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* or 200% */
+
+  color: #999999;
+}
+
+.add {
+  position: absolute;
+  width: 92px;
+  height: 32px;
+  left: 435px;
+  top: 1521px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #4e5dc0;
+}
+
+.dum {
+  position: absolute;
+  width: 302px;
+  height: 96px;
+  left: 435px;
+  top: 1567px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* or 200% */
+
+  color: #999999;
+}
+
+.mail {
+  position: absolute;
+  width: 61px;
+  height: 32px;
+  left: 435px;
+  top: 1703px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #4e5dc0;
+}
+
+.id {
+  position: absolute;
+  width: 185px;
+  height: 32px;
+  left: 435px;
+  top: 1749px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* identical to box height, or 200% */
+
+  color: #999999;
+}
+
+.menu {
+  position: absolute;
+  width: 57px;
+  height: 32px;
+  left: 925px;
+  top: 1521px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #4e5dc0;
+}
+
+.menpara {
+  position: absolute;
+  width: 75px;
+  height: 128px;
+  left: 925px;
+  top: 1567px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* or 200% */
+
+  color: #999999;
+}
+
+.oval1 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 1210px;
+  top: 1517px;
+}
+
+.fb {
+  position: absolute;
+  width: 9.33px;
+  height: 16px;
+  left: 1229px;
+  top: 1533px;
+}
+
+.oval2 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 1266px;
+  top: 1517px;
+}
+
+.oval3 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 1322px;
+  top: 1517px;
+}
+
+.ig {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 1338px;
+  top: 1533px;
+}
+
+.tw {
+  position: absolute;
+  width: 16px;
+  height: 13px;
+  left: 1282px;
+  top: 1535px;
+}
