@@ -5,8 +5,59 @@
 }
 
 .container {
-  height: 700px;
   display: grid;
-  grid-template-rows: 30px 1fr 1fr 1fr;
-  grid-template-columns: repeat(1fr);
+  background-color: yellow;
+  grid-template-rows: 80px 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  height: 800px;
+  padding: 10px;
+  width: 850px;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas:
+    "hr hr"
+    "b1 b2"
+    "b3 b4"
+    "b5 b6";
+}
+
+.boxxy h1 {
+  text-align: center;
+}
+
+.box {
+  background-color: aqua;
+  border: 3px solid black;
+  padding: 15px;
+  position: relative;
+}
+
+#last {
+  position: absolute;
+  bottom: 0;
+  left: 1;
+  padding-bottom: 10px;
+}
+
+#head {
+  grid-area: hr;
+}
+#box1 {
+  grid-area: b1;
+}
+#box2 {
+  grid-area: b2;
+}
+#box3 {
+  grid-area: b3;
+}
+#box4 {
+  grid-area: b4;
+}
+#box5 {
+  grid-area: b5;
+}
+#box6 {
+  grid-area: b6;
 }
