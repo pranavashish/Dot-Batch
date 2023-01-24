@@ -12,10 +12,14 @@
   height: 150px;
   width: 150px;
   margin: 20px;
-  transition: 2s;
+  /* transition: 1s;
   transition-delay: 3s;
+  transition-duration: 1s; */
+
+  transition: transform 1s ease 2s;
 }
 
 .box:hover {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+  transform: rotate(45deg);
 }
