@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,14 +18,15 @@
 }
 
 .container {
-  margin: 0 auto;
   width: 1200px;
+  margin: 0 auto;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding-top: 1rem;
 }
 
@@ -32,21 +34,21 @@
   width: 80px;
 }
 
-.logo-text {
-  margin: -1.2rem;
-  font-size: 28px;
+.logo-container {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
 }
 
-.nav-logo {
-  display: flex;
-  align-items: center;
-  justify-content: baseline;
+.logo-text {
+  margin-left: -1.2rem;
+  font-size: 28px;
 }
 
 .nav-items {
   display: flex;
   gap: 2rem;
-  padding: 0 4rem;
+  padding: 0 4em;
 }
 
 .nav-items div {
@@ -54,10 +56,13 @@
   font-weight: 500;
   cursor: pointer;
 }
+.nav-items div a {
+  color: black;
+  /* transition: all 5s ease; */
+}
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 .nav-items div:hover {
@@ -78,9 +83,10 @@ a {
 }
 
 .faded-text {
+  position: absolute;
   user-select: none;
-  color: rgb(231, 231, 231);
   font-size: 7em;
+  color: rgb(231, 231, 231);
 
   bottom: -16%;
   left: -5%;
@@ -88,14 +94,15 @@ a {
   transition: all 3s;
 }
 
-.hero-left {
+.hero-section-left {
+  /* width:100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
 }
 
-.hero-heading {
+.hero-section-heading {
   font-size: 35px;
   color: #343d68;
   font-weight: 500;
@@ -106,12 +113,12 @@ a {
   font-weight: 800;
 }
 
-.hero-subheading {
+.hero-section-sub-heading {
   font-size: 45px;
   line-height: 45px;
 }
 
-.hero-desc {
+.hero-section-description {
   margin-top: 1rem;
   width: 70%;
   font-weight: 500;
@@ -152,7 +159,7 @@ a {
   color: black;
 }
 
-.hero-right {
+.hero-section-right {
   position: relative;
 }
 
@@ -176,11 +183,13 @@ a {
     filter: grayscale(0);
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.1);
     filter: grayscale(1);
     box-shadow: 3px 3px 10px black;
   }
+
   100% {
     transform: scale(1);
     filter: grayscale(0);
@@ -213,7 +222,7 @@ a {
   top: -0.8em;
   right: 1em;
   animation-name: cubeRotate;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -238,7 +247,6 @@ a {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-
 @keyframes shakeEffect {
   50% {
     left: 5%;
@@ -252,22 +260,47 @@ a {
   left: -0.3em;
   animation: zigzagAnimation 5s ease-in infinite;
 }
+
 @keyframes zigzagAnimation {
   50% {
-    top: 2%;
     left: 5%;
+    top: 2%;
   }
 }
-
 .icon-plus {
   z-index: 9;
   top: -0.8rem;
   left: 50%;
   animation: shakeEffectPlus 5s ease-in infinite;
 }
+
 @keyframes shakeEffectPlus {
   50% {
     top: 3%;
     left: 48%;
   }
+}
+
+.project-section {
+  background-color: rgb(231, 231, 231);
+  top-margin: 4rem;
+}
+
+.page-header {
+  text-align: center;
+  color: var(--bgOrange);
+  font-size: 90px;
+}
+
+.project-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.project-card {
+  width: 90%;
 }
