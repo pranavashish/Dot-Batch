@@ -297,6 +297,7 @@ a {
   text-align: center;
   color: var(--bgOrange);
   font-size: 90px;
+  padding-top: 30px;
 }
 
 .project-container {
