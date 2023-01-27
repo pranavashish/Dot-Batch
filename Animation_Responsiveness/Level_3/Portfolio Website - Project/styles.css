@@ -594,3 +594,130 @@ a {
 }
 
 /* Contact Me */
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(231, 231, 231);
+}
+
+.contact-me h1 {
+  color: var(--bgOrange);
+  font-size: 5em;
+  padding-bottom: 2rem;
+  text-align: inherit;
+  margin-right: 43.5rem;
+}
+
+.contact-me h2 {
+  padding-bottom: 1em;
+  font-size: 3em;
+  color: #343d68aa;
+}
+
+.formfield-container {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.formfield {
+  width: 60%;
+  height: 42px;
+  padding: 0 2rem;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px #1f1f1f;
+  background: #ffffff97;
+  font-weight: 500;
+}
+
+.formfield-textarea {
+  height: auto;
+  padding-top: 1rem;
+}
+
+#submit-btn {
+  border: none;
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  margin-right: 43.5rem;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  margin-top: -1px;
+  background: #343d68;
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  padding: 5rem;
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-faded-text {
+  font-size: 5em;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #535c87;
+  user-select: none;
+}
+
+.link-wrapper {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.link-wrapper div a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+.icon-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.fa-brands,
+.fab {
+  font-weight: 400;
+}
+.fa-brands,
+.fab {
+  font-family: "Font Awesome 6 Brands";
+}
+.fa,
+.fa-brands,
+.fa-classic,
+.fa-regular,
+.fa-sharp,
+.fa-solid,
+.fab,
+.far,
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+.icon {
+  cursor: pointer;
+  font-size: 35px;
+  transition: all 0.4s;
+  color: #fff;
+}
