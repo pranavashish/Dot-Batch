@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Razorpay</title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!-- Navbar -->
 
     <nav class="bg-deepBlue">
@@ -91,18 +92,11 @@
             Log in
           </button>
           <button
-            class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 flex"
-          >
-            Sign Up
-            <svg
-              viewBox="0 0 25 25"
-              focusable="false"
-              class="w-[14px] h-[14px] ml-3"
-            >
-              <path
-                fill="currentColor"
-                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-              ></path>
+            class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 flex items-center"
+          >            Sign Up                 
+              <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+                <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+              </svg>
             </svg>
           </button>
         </div>
@@ -126,10 +120,11 @@
               employees. Never run out of working capital.
             </p>
           </div>
-          <button
-            class="bg-lightBlue rounded-sm font-bold cursor-pointer my-4 hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]"
-          >
+          <button class="bg-lightBlue w-full md:w-fit flex items-center justify-center md:justify-start text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
             Sign Up Now
+            <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+              <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
           </button>
         </div>
         <!-- right part -->
@@ -155,47 +150,93 @@
         height="167"
       />
       <img
-        class="absolute top-[3rem] right-0 inline-block rotate-180"
+        class="absolute top-[6rem] right-0 inline-block rotate-180"
         src="./assets/feature-section1-dottedrows.png"
         loading="lazy"
         width="233"
         height="167"
       />
-      <div>
+      <div class="relative w-11/12 max-w-[1080px] mx-auto pt-10">
         <!-- heading -->
-        <h1>Accept Payments with Razorpay Payment Suite</h1>
-        <div></div>
+        <h1 class="text-center text-2xl leading-[1.2] font-bold text-deepBlue my-5">
+          Accept Payments with Razorpay Payment Suite
+        </h1>
+        <div class="w-6 h-1 bg-greenLight mx-auto my-4"></div>
         <!-- content box -->
-        <div>
+        <div
+          class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 my-20 border"
+        >
           <!-- left section -->
-          <div>
-            <h3>
+          <div class="flex flex-col justify-between w-full">
+            <h3
+              class="text-[28px] max-w-[500px] leading-10 font-bold text-deepBlue"
+            >
               Supercharge your business with the all‑powerful
-              <span>Payment Gateway</span>
+              <span class="text-lightBlue">Payment Gateway</span>
             </h3>
-            <ul>
-              <li>100+ Payment Methods</li>
-              <li>Industry Leading Success Rate</li>
-              <li>Superior Checkout Experience</li>
-              <li>Easy to Integrate</li>
-              <li>Instant Settlements from day 1</li>
-              <li>In-depth Reporting and Insights</li>
+
+            <ul class="flex flex-col space-y-2">
+              <li class="flex gap-4">
+                <i data-feather="check" class="text-greenLight"></i
+                ><span>100+ Payment Methods</span>
+              </li>
+              <li class="flex gap-4">
+                <i data-feather="check" class="text-greenLight"></i
+                ><span>Industry Leading Success Rate</span>
+              </li>
+              <li class="flex gap-4">
+                <i data-feather="check" class="text-greenLight"></i
+                ><span>Superior Checkout Experience</span>
+              </li>
+              <li class="flex gap-4">
+                <i data-feather="check" class="text-greenLight"></i
+                ><span>Easy to Integrate</span>
+              </li>
+              <li class="flex gap-4">
+                <i data-feather="check" class="text-greenLight"></i
+                ><span>Instant Settlements from day 1</span>
+              </li>
+              <li class="flex gap-4">
+                <i data-feather="check" class="text-greenLight"></i
+                ><span>In-depth Reporting and Insights</span>
+              </li>
             </ul>
             <!-- for button and hyperlink -->
-            <div>
-              <button>Sign Up Now ></button>
+            <div class="flex gap-10 items-center">
+              <button class="bg-lightBlue w-full md:w-fit flex items-center justify-center md:justify-start text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
+                Sign Up Now
+                <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+                  <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                </svg>
+              </button>
+                </svg>
+              </button>
               <!-- hyperlink -->
-              <div>
-                <a href="#">Know More ></a>
-                <i></i>
+              <div class="flex items-center">
+                <a class="font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200" href="#">Know More</a>
+                <i class="w-5 h-5 text-lightBlue500  group-hover:text-grayBlue transition-all duration-200" data-feather="chevron-right"></i>
+                
               </div>
             </div>
           </div>
           <div>
-            <img src="./assets/payment-suite.png" alt="" />
+            <img class="max-w-[600px] absolute right-0 bottom-[10px] object-fill" src="./assets/payment-suite.png" alt="" />
           </div>
         </div>
       </div>
     </section>
+    <script>
+      feather.replace();
+    </script>
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>
