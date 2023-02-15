@@ -31,6 +31,8 @@
 
 // console.log(numbers);
 
+//ADDING ELEMENT
+
 // END       --> push
 // Beginning --> unshift
 // Middle    --> splice
@@ -42,10 +44,10 @@
 // Primitive --> indexOF, includes
 // Object/Refrences --> callback functions
 
-let courses = [
-  { no: 1, name: "Pranav" },
-  { no: 2, name: "Ashish" },
-];
+// let courses = [
+//   { no: 1, name: "Pranav" },
+//   { no: 2, name: "Ashish" },
+// ];
 
 // console.log(courses);
 
@@ -59,6 +61,22 @@ let courses = [
 
 //ARROW FUNCTIONS
 
-let courseArrow = courses.find((course) => course.name === "Pranav");
+// let courseArrow = courses.find((course) => course.name === "Pranav");
 
-console.log(courseArrow);
+// console.log(courseArrow);
+
+//Removing element
+
+// END       --> pop
+// Beginning --> shift
+// Middle    --> splice(index, count(no of element u want to delete),)
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+numbers.pop();
+
+numbers.shift();
+
+numbers.splice(1, 3);
+
+console.log(numbers);
