@@ -97,6 +97,9 @@
 //   },
 
 //   set fullName(value) {
+//     if (typeof value !== String) {
+//       throw new Error("You have not sent a String");
+//     }
 //     let parts = value.split(" ");
 //     this.fname = parts[0];
 //     this.lname = parts[1];
@@ -125,3 +128,66 @@
 // -----------------------------------------------------------------------------
 
 // @ Try and Catch <- Error Handling
+
+// try {
+//   person.fullName = 80;
+// } catch (e) {
+//   alert("You have sent a number in fullname");
+// }
+
+// try {
+//   person.fullName = true;
+// } catch (e) {
+//   alert("You have sent a boolean in fullname");
+// }
+
+// try {
+//   person.fullName = true;
+// } catch (e) {
+//   alert(e);
+// }
+
+// console.log(person.fullName);
+
+// -----------------------------------------------------------------------------
+
+// @ Scope Let < Var
+
+// function walk() {
+//   var a = 5;
+// }
+// console.log(a);
+
+// for (var i = 0; i < 10; i++) {}
+
+// console.log(i);
+
+// function a() {
+//   const ab = 5;
+// }
+// const ab = 5;
+// function b() {
+//   const ab = 5;
+// }
+
+// -----------------------------------------------------------------------------
+
+// @ REDUCING ARRAYS
+
+let arr = [1, 2, 3, 4];
+let total = 0;
+
+for (let value of arr) {
+  total += value;
+}
+
+console.log(total);
+
+// let totalSum = arr.reduce(
+//   (accumulator, currentValue) => accumulator + currentValue,
+//   0
+// );
+
+let totalSum = arr.reduce((total, value) => total + value);
+
+console.log(totalSum);
