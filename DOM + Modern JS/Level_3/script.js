@@ -30,7 +30,7 @@ console.log("This took: " + (t4 - t3) + " ms");
 
 const to1 = performance.now();
 let fragment = document.createDocumentFragment();
-for (let i = 0; i <= 1000000; i++) {
+for (let i = 0; i <= 10; i++) {
   let newElements = document.createElement("p");
   newElements.textContent = "This is para " + i;
 
@@ -40,8 +40,6 @@ for (let i = 0; i <= 1000000; i++) {
 document.body.appendChild(fragment);
 const to2 = performance.now();
 console.log("This took: " + (to2 - to1) + " ms");
-
-//
 
 function addPara() {
   let para = document.createElement("p");
