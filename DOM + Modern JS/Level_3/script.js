@@ -55,3 +55,16 @@ function newMessage() {
 
 addPara();
 newMessage();
+
+document.addEventListener("click", function () {
+  console.log("hello");
+});
+
+// Async Code --> JS event loop
+// Handling --> Browser
+
+// Cycling --> Async load -> call stack -> browser -> queue -> when stack is entry
+
+setTimeout(function () {
+  console.log("Hi");
+}, 4000);
