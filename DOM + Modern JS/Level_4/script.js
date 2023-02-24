@@ -82,4 +82,57 @@
 //   return [dM, mM];
 // }
 
-//Fetch API
+// // @ Fetch API
+
+// // get
+
+// async function xyz() {
+//   let content = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+//   let output = await content.json();
+//   console.log(output);
+// }
+
+// xyz();
+
+// // POST
+
+// async function helper() {
+//   let options = {
+//     method: "POST",
+//     body: JSON.stringify({
+//       title: "Pranav",
+//       body: "Solid Body",
+//       userId: 2000,
+//     }),
+//     headers: {
+//       "Content-type": "application/json; charset=UTF-8",
+//     },
+//   };
+
+//   let content = await fetch(
+//     "https://jsonplaceholder.typicode.com/posts",
+//     options
+//   );
+//   let response = content.json();
+//   return response;
+// }
+
+// async function utilities() {
+//   let ans = await helper();
+//   console.log(ans);
+// }
+
+// utilities();
+
+// Closures
+
+function makeFunc() {
+  const name = "Pranav";
+  function displayName() {
+    console.log(name);
+  }
+  return displayName;
+}
+
+const myFunc = makeFunc();
+myFunc();
