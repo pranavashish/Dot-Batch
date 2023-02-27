@@ -179,7 +179,7 @@ h1 {
   font-weight: 600;
   left: 50%;
   top: -3.5px;
-  transform: translateX(-50%) translateY(40%);
+  transform: translateX(-50%);
 }
 
 .check label {
