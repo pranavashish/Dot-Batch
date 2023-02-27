@@ -18,14 +18,14 @@ let password = "";
 let passwordLength = 10;
 let checkCount = 0;
 handleSlider();
-//ste strength circle color to grey
+//set strength circle color to grey
 setIndicator("#ccc");
 
 //set passwordLength
 function handleSlider() {
   inputSlider.value = passwordLength;
   lengthDisplay.innerText = passwordLength;
-  //or kuch bhi karna chahiye ? - HW
+
   const min = inputSlider.min;
   const max = inputSlider.max;
   inputSlider.style.backgroundSize =
