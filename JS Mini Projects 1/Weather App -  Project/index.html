@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -17,75 +23,81 @@
       </div>
 
       <div class="weather-container">
-        <!-- grant location container  -->
-
-        <div class="grant-location-container">
+        <!-- grant location container-->
+        <div class="sub-container grant-location-container">
           <img
             src="./assets/location.png"
             width="80"
             height="80"
             loading="lazy"
           />
-          <h2>Grant Location Access</h2>
-          <p>Allow Access To Get Weather Information</p>
-          <button class="btn">Grant Access</button>
+          <p>Grant Location Access</p>
+          <p>Allow Access to get weather Information</p>
+          <button class="btn" data-grantAccess>Grant Access</button>
         </div>
-        <!-- search form -->
+
+        <!-- search form -> form-container-->
         <form class="form-container" data-searchForm>
-          <input placeholder="Search for City...." data-searchInput />
-          <button class="btn">
-            <img src="./assets/search.png" alt="" />
+          <input placeholder="Search for City..." data-searchInput />
+          <button class="btn" type="submit">
+            <img
+              src="./assets/search.png"
+              width="20"
+              height="20"
+              loading="lazy"
+            />
           </button>
         </form>
 
-        <!-- loading screen -->
-        <div class="loading-container">
+        <!--- loading screen container -->
+        <div class="sub-container loading-container">
           <img src="./assets/loading.gif" width="150" height="150" />
           <p>Loading</p>
         </div>
 
-        <!-- Weather Info  -->
-
-        <div class="user-info-container">
-          <!-- city name and flag -->
+        <!-- show weather info -->
+        <div class="sub-container user-info-container">
+          <!--city name and Flag-->
           <div class="name">
             <p data-cityName></p>
-            <img data-countryImage />
+            <img data-countryIcon />
           </div>
-          <!-- weather Desc  -->
+
+          <!-- weather descriptuion-->
           <p data-weatherDesc></p>
-          <!-- weather icon  -->
+          <!--weather Icon-->
           <img data-weatherIcon />
-          <!-- Temp  -->
+          <!--temperature-->
           <p data-temp></p>
 
-          <!-- 3 cards  -->
-          <div parameter-container>
-            <!-- card 1 -->
-            <div class="paramenter">
+          <!--3 cards - parameters-->
+          <div class="parameter-container">
+            <!--card 1-->
+            <div class="parameter">
               <img src="./assets/wind.png" />
-              <p>Wind Speed</p>
+              <p>windspeed</p>
               <p data-windspeed></p>
             </div>
 
-            <!-- card 2 -->
-            <div class="paramenter">
+            <!--card 2-->
+            <div class="parameter">
               <img src="./assets/humidity.png" />
-              <p>Humidity</p>
+              <p>humidity</p>
               <p data-humidity></p>
             </div>
 
-            <!-- card 3 -->
-            <div class="paramenter">
+            <!--card 3-->
+            <div class="parameter">
               <img src="./assets/cloud.png" />
               <p>Clouds</p>
-              <p data-clouds></p>
+              <p data-cloudiness></p>
             </div>
           </div>
         </div>
       </div>
+      s
     </div>
 
-    <script src="./script.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
