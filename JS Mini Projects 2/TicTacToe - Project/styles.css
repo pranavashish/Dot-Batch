@@ -18,12 +18,12 @@
 }
 
 .game-info {
-  color: #6b7e85;
+  color: rgba(233, 63, 74);
   position: absolute;
   top: 3rem;
-  background-color: rgba(191, 194, 183, 0.7);
+  background-color: rgba(31, 52, 71, 0.96);
   border-radius: 1rem;
-  border: 1px solid rgba(109, 127, 137, 0.25);
+  border: 1px solid #f3bf40;
   padding: 0.5rem 2rem;
   text-align: center;
   font-weight: 700;
@@ -32,7 +32,7 @@
 .tic-tac-toe {
   width: 90%;
   max-width: 20rem;
-  background-color: rgba(57, 109, 147, 0.96);
+  background-color: rgba(31, 52, 71, 0.96);
   border-radius: 1rem;
   border: 4px solid rgba(231, 17, 31, 0.7);
   padding: 2rem;
@@ -50,6 +50,7 @@
   display: grid;
   place-items: center;
   font-size: 3rem;
+  font-weight: 600;
   color: #e93f4a;
 }
 
@@ -70,17 +71,17 @@
 }
 
 .btn {
-  color: #6b7e85;
+  color: rgba(233, 63, 74);
   position: absolute;
   bottom: 3rem;
-  background-color: rgba(191, 194, 183, 0.7);
+  background-color: rgba(31, 52, 71, 0.96);
   border-radius: 1rem;
-  border: 1px solid rgba(109, 127, 137, 0.25);
+  border: 1px solid#f3bf40;
   padding: 0.5rem 2rem;
   text-align: center;
   font-weight: 700;
   cursor: pointer;
-  /* display: none; */
+  display: none;
 }
 
 .btn.active {
