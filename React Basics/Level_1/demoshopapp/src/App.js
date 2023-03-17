@@ -13,8 +13,8 @@ function App() {
       itemYear: "2000",
     },
     {
-      itemName: "Nirma2",
-      itemDate: "2120",
+      itemName: "Surf Excel",
+      itemDate: "2",
       itemMonth: "Juasdne",
       itemYear: "200asd0",
     },
