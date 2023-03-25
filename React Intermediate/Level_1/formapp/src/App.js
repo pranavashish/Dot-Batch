@@ -16,13 +16,16 @@ function App() {
     firstName: "",
     lastName: "",
     email: "",
+    comment: "",
+    isVisible: true,
   });
-
+  console.log(formData);
   function changeHandler(event) {
+    const { name, value, checked, type } = event.target;
     setFormData((prevFormData) => {
       return {
         ...prevFormData,
-        [event.target.name]: [event.target.value],
+        [name]: type === "checkbox" ? checked : value,
       };
     });
   }
@@ -30,6 +33,7 @@ function App() {
   return (
     <div className="App">
       <form>
+        <br></br>
         <input
           type="text"
           placeholder="first name "
@@ -55,6 +59,24 @@ function App() {
           name="email"
           value={formData.email}
         ></input>
+        <br></br>
+        <br></br>
+        <textarea
+          placeholder="Enter Comments"
+          onChange={changeHandler}
+          name="comment"
+          value={formData.comment}
+        ></textarea>
+        <br></br> <br></br>
+        <input
+          type="checkbox"
+          onChange={changeHandler}
+          name="isVisible"
+          id="isVisible"
+          // value={formData.isVisible}
+          checked={formData.isVisible}
+        ></input>
+        <label htmlFor="isVisible">Am I Visible?</label>
       </form>
     </div>
   );
