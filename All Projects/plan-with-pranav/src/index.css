@@ -1,0 +1,115 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;700;900&family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 6vh;
+  border: 7px solid blue;
+  border-radius: 20px;
+  padding: 1vh 5vw;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: max-content;
+  margin: 1rem;
+  padding: 1re;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image {
+  margin: 0.5rem;
+  width: 380px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.tour-info {
+  margin: 20px 20px;
+}
+
+.tour-price {
+  color: #1faa59;
+  font-size: 1.3rem;
+}
+
+.tour-name {
+  font-size: 1.5rem;
+}
+
+.read-more {
+  color: #1698d4;
+  cursor: pointer;
+}
+
+.btn-red {
+  margin-top: 18px;
+  padding: 10px 90px;
+  bottom: 1px solid #b4161b;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #b4161b21;
+  margin: 2rem;
+}
+
+.btn-red:hover {
+  background-color: red;
+  color: white;
+  transition: all 0.3s;
+}
+
+.refresh {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-white {
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}

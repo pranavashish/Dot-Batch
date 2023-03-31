@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "sans-serif";
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/wallpapersden.com_superman-metropolis-dc-comic_2048x1152.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+.game-info {
+  color: rgba(233, 63, 74);
+  position: absolute;
+  top: 3rem;
+  background-color: rgba(31, 52, 71, 0.96);
+  border-radius: 1rem;
+  border: 1px solid #f3bf40;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.tic-tac-toe {
+  width: 90%;
+  max-width: 20rem;
+  background-color: rgba(31, 52, 71, 0.96);
+  border-radius: 1rem;
+  border: 4px solid rgba(231, 17, 31, 0.7);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  aspect-ratio: 1/1;
+  margin-top: 1rem;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #e93f4a;
+}
+
+.box1,
+.box2,
+.box4,
+.box5 {
+  border-right: 4px solid #f3bf40;
+  border-bottom: 4px solid #f3bf40;
+}
+.box3,
+.box6 {
+  border-bottom: 4px solid #f3bf40;
+}
+.box7,
+.box8 {
+  border-right: 4px solid #f3bf40;
+}
+
+.btn {
+  color: rgba(233, 63, 74);
+  position: absolute;
+  bottom: 3rem;
+  background-color: rgba(31, 52, 71, 0.96);
+  border-radius: 1rem;
+  border: 1px solid#f3bf40;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  display: none;
+}
+
+.btn.active {
+  display: flex;
+}
+
+.win {
+  background-color: rgba(0, 255, 0, 0.3);
+}
