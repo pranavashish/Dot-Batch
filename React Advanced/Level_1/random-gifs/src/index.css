@@ -11,18 +11,18 @@
 }
 
 
-/* css loader generated using https://10015.io/tools/css-loader-generator */
 .spinner {
-   margin: 40px;
-   width: 11.2px;
-   height: 11.2px;
-   animation: spinner-z355kx 1s infinite linear;
-   border-radius: 11.2px;
-   box-shadow: 28px 0px 0 0 #fff, 17.4px 21.8px 0 0 #fff, -6.2px 27.2px 0 0 #fff, -25.2px 12px 0 0 #fff, -25.2px -12px 0 0 #fff, -6.2px -27.2px 0 0 #fff, 17.4px -21.8px 0 0 #fff;
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   background: radial-gradient(farthest-side,#474bff 94%,#0000) top/9px 9px no-repeat,
+          conic-gradient(#0000 30%,#474bff);
+   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+   animation: spinner-c7wet2 1s infinite linear;
 }
 
-@keyframes spinner-z355kx {
-   to {
-      transform: rotate(360deg);
+@keyframes spinner-c7wet2 {
+   100% {
+      transform: rotate(1turn);
    }
 }
