@@ -1,5 +1,11 @@
 const Header = () => {
-  return <div></div>;
+  return (
+    <div>
+      <header>
+        <h1>Codehelp Blogs</h1>
+      </header>
+    </div>
+  );
 };
 
 export default Header;
