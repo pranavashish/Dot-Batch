@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@reduxjs/toolkit": "^1.9.4",
-    "tailwind": "^4.0.0"
-  }
-}
