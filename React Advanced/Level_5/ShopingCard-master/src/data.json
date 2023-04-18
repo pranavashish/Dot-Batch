@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "title": "Embroidered skirt",
+    "price": 2990.00,
+    "description": "Calf-length, fitted skirt in woven fabric made from a viscose blend with embroidery in a contrasting colour. Wrapover front and a high waist with a button. Unlined.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/04/cc/04cc146f193dd02611b8e3262267e731f53f12c8.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "Crochet-look dress",
+   " price": 2258.00,
+    "description": "Calf-length, fitted, sleeveless dress in a textured knit with a crocheted look. Narrow, adjustable shoulder straps and a V-neckline with a keyhole opening at the front. Gently frilled hem.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/41/d2/41d206515ee3e7670f9c7a1520c928ba07811d3d.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 3,
+   " title": "Cropped halterneck top",
+   "price": 999.00,
+    "description": "Cropped, fitted halterneck top in woven fabric. Crossover straps with buttons at the back of the neck and wide ties that fasten at the back. Lined at the front.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/ac/7f/ac7f3abc989d249849eab7b035e163e598b21a14.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "id": 4,
+    "title": "Cropped crochet-look vest top",
+    "price": 1115.99,
+    "description": "Cropped, fitted vest top in a textured knit with a crocheted look. Deep, square neckline at the front and back, and a narrow trim around the neckline and armholes.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/8c/fe/8cfe0adb3c3ed4182366dbacbe33ada811679531.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 5,
+    "title": "Double-breasted blazer",
+    "price": 1695,
+    "description": "Loose-fit, double-breasted blazer in woven fabric with peak lapels and buttons at the front. Shoulder pads, long sleeves, a welt chest pocket and front pockets. Lined.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/64/cc/64ccff11aed114c0db154ee4efb0e03006a08236.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 6,
+    "title": "Linen-blend mini skirt ",
+    "price": 1168,
+    "description": "Mini skirt in a viscose and linen weave with a low waist and a concealed zip with a button at the back. Lined.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/90/a8/90a85ce35193398a3bdc282e558a37c8e67113d7.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.6,
+      "count": 70
+    }
+  },
+  {
+    "id": 7,
+    "title": "Crochet-look skirt",
+    "price": 1189.99,
+   " description": "Calf-length, fitted skirt in a textured knit with a crocheted look. High waist with covered elastication, and long fringes at the hem.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/4a/80/4a800f89db82c02b335a127453219ad64eddc92b.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 3,
+      "count": 400
+    }
+  },
+  {
+    "id": 8,
+    "title": "Padded platform sandals",
+    "price": 1990.99,
+    "description":
+      "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless SteelPlatform sandals in a weave with wide, padded crossover foot straps. Patterned soles.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/e7/84/e784bd0a1d8c6d3078c3dd3d21b5b377e312bfd8.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+   "rating": {
+      "rate": 4.9,
+      "count": 100
+    }
+  },
+  {
+    "id": 9,
+    "title": "Crinkled jersey dress ",
+    "price": 1649.00,
+    "description": "Calf-length, fitted dress in crinkled jersey in a sleeveless design with narrow, adjustable shoulder straps.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/26/ec/26ecd081334508849ec09dec6d723b0226ae5582.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+     "rate": 4.3,
+      "count": 203
+    }
+  },
+  {
+    "id": 10,
+    "title": "Buttoned tie-belt dress",
+    "price": 1099.00,
+    "description":
+      "Ankle-length dress in a viscose blend weave with a deep V-neckline and covered buttons down the front. Long, raglan cut balloon sleeves with narrow, covered elastication at the cuffs. Tie belt at the waist and a gathered tier at the hem to add width and volume. Unlined.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/27/87/27876cfea163e05cd672830a1426406f91ec6063.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+   " rating": {
+      "rate": 4.9,
+      "count": 470
+    }
+  },
+  {
+    "id": 11,
+    "title":
+      "Crochet-look lace dress",
+    "price": 1098.00,
+    "description":
+      "Ankle-length dress in lace with a crocheted look. Slightly wider, round neckline and an opening with a covered button at the back of the neck. Long sleeves and a high slit at each side of the hem. Scalloped edges at the cuffs and hem. Unlined.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/e9/da/e9da1c59a2cb70e16ff645b5d23006f1bfdb00e5.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.8,
+      "count": 319
+    }
+  },
+  {
+    "id": 12,
+    "title":
+      "Tailored trousers",
+    "price": 1149.00,
+    "description":
+      "Tailored trousers with a high waist, pleats at the top, a zip fly with a hook-and-eye fastening and a concealed button. Diagonal side pockets, welt back pockets and wide, straight legs with creases.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/e8/da/e8da208cd4bb63c69b239b1ab32f2a2892bf6d6d.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 13,
+    "title": "Braided-detail shorts",
+    "price": 1599.00,
+    "description":
+      "Shorts in a woven viscose blend. High waist with a concealed zip and hook-and-eye fastening at the back. Discreet pockets in the side seams and circular loop trims with braided ties down each side.",
+    "category": "ewomen's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/f7/c7/f7c77470df3a5d35d6278170038db03f7fd660bb.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 14,
+    "title":
+      "Rib-knit dress",
+   " price": 1999.99,
+    "description":
+      "Calf-length, fitted dress in a rib knit with crochet-look cups and narrow, adjustable shoulder straps.",
+    "category": "women's clothing",
+   " image": "https://lp2.hm.com/hmgoepprod?set=source[/9b/3e/9b3e8be9afe3cdd6dcfdc05c39f18a8abbc7b7cd.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 15,
+    "title": "Satin slip dress",
+    "price": 1956.99,
+    "description":
+      "Calf-length, fitted dress in softly draping viscose satin with a V-shaped neckline, adjustable spaghetti shoulder straps and shaped cups. Concealed zip and hook-and-eye fastener at the back and a straight-cut hem.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/5d/47/5d479168c93b05c1b1c98b8a5ac00373e69669f0.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.6,
+      "count": 235
+    }
+  },
+  {
+    "id": 16,
+    "title": "Flared trousers",
+    "price":1229.95,
+    "description":
+      "Trousers in woven fabric made from a viscose blend with a zip fly and button, diagonal side pockets and legs with gently flared hems.",
+    "category": "women's clothing",
+   "image": "https://lp2.hm.com/hmgoepprod?set=source[/58/8a/588a60f059c76c4045905bc62690648bcee53965.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 17,
+    "title": "Jacquard-weave shopper",
+    "price": 1339.99,
+    "description":
+      "Shopper in a cotton blend jacquard weave with decorative straps at the short sides and long handles at the top. Open inner compartment. Lined. Depth 20 cm. Height 31 cm. Width 38 cm.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/3d/bd/3dbdf23015ff61e714f60aa4f5286a7617e2876b.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.8,
+      "count": 679
+    }
+  },
+  {
+    "id": 18,
+    "title": "Linen shorts",
+    "price": 1999.85,
+    "description":
+      "Shorts in airy linen with a regular waist that has covered elastication and a small frill at the top. Diagonal side pockets.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/7b/3d/7b3d5ac50beae70dad490fb71390c9cd5fd3a641.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.7,
+      "count": 130
+    }
+  },
+  {
+    "id": 19,
+    "title": "Linen shorts",
+    "price": 1777.95,
+    "description":
+      "Shorts in airy linen with a regular waist that has covered elastication and a small frill at the top. Diagonal side pockets.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/cb/b0/cbb08f3478d92b9772940b7ae2352295f18ae588.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.5,
+      "count": 146
+    }
+  },
+  {
+    "id": 20,
+    "title": "T-shirt Cream/Atelier 93",
+    "price": 1112.99,
+    "description":
+      "T-shirt in soft jersey with a rib-trimmed neckline.",
+    "category": "women's clothing",
+    "image": "https://lp2.hm.com/hmgoepprod?set=source[/f0/a2/f0a2424ab3195547082ac4bdb71d2156ef67c2ea.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "rating": {
+      "rate": 4.6,
+      "count": 145
+    }
+  }
+]
