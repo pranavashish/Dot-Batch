@@ -7,7 +7,7 @@
   background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
   background-size: 36px 36px;
   background-position: 0 0, 18px 18px;
-  background-color: #b1d2ff;
+  background-image: url(../public/Color\ Hunt\ Palette\ 070a52d21312ed2b2af15a59.png);
 }
 
 
@@ -26,3 +26,4 @@
       transform: rotate(1turn);
    }
 }
+
